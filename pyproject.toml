@@ -1,6 +1,6 @@
 [project]
 name = "vibetrimright"
-version = "0.1.0"
+version = "0.1.1"
 description = "String right-trimming library that uses GPT to remove trailing whitespace"
 readme = "README.md"
 authors = [

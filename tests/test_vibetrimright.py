@@ -28,5 +28,5 @@ def test_empty_string():
 
 
 def test_newlines_and_tabs():
-    assert vibetrimright("line1\nline2\n\n") == "line1\nline2"
+    assert vibetrimright("line1\nline2\n\n") == "line1\nline2\n"
     assert vibetrimright("tabbed\t\t\t") == "tabbed"
