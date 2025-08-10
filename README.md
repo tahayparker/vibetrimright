@@ -1,12 +1,12 @@
-# vibesum
+# vibetrimright
 
-AI-powered number addition using GPT.
+AI-powered string right-trimming using GPT.
 
 ## Usage
 
 Install the package:
 ```bash
-pip install vibesum
+pip install vibetrimright
 ```
 
 Set your OpenAI API key as an environment variable.
@@ -15,10 +15,10 @@ export OPENAI_API_KEY=your_key_here
 ```
 
 ```python
-from vibesum import vibesum
+from vibetrimright import vibetrimright
 
-result = vibesum(5, 3)
-print(result)  # 8
+result = vibetrimright("hello world   ")
+print(repr(result))  # 'hello world'
 ```
 
 ## Test
@@ -34,3 +34,6 @@ pytest tests/
 - typing-extensions
 
 ⚠️ Requires OpenAI API key. Experimental project - not for production use.
+
+## DISCLAIMER
+Will not work half the time :) Enjoy!
